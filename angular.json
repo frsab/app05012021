@@ -66,7 +66,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "app05012021:build"
+            "browserTarget": "app05012021:build",
+            "port": 5000
           },
           "configurations": {
             "production": {
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app05012021"
+    }
+  },
+  "defaultProject": "app05012021",
+  "cli": {
+    "analytics": false
+  }
 }
